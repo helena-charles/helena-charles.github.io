@@ -69,6 +69,8 @@ a:not(:last-child) {
 }
 
 @media (prefers-color-scheme: dark) {
-  background: black;
-  color: white;
+  :root {
+    background: black;
+    color: white;
+  }
 }
