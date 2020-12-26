@@ -61,18 +61,8 @@ a:not(:last-child) {
   }
 }
 
-@media only screen and (max-width: 678px) {
+@media only screen and (min-width: 426px) and (max-width: 678px) {
   h2 {
     font-size: 2.5rem;
   }
-
-  /* html {
-    background-size: 100%;
-  } */
-}
-
-@media only screen and (min-width: 679px) and (max-width: 1399px) {
-  /* html {
-    background-size: 100%;
-  } */
 }
