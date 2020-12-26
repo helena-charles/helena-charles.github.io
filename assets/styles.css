@@ -73,4 +73,8 @@ a:not(:last-child) {
     background: black;
     color: white;
   }
+
+  a {
+    color: white;
+  }
 }
